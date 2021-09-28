@@ -1,0 +1,445 @@
+{
+  "quiz": {
+    "id": 12485,
+    "title": "Working with Objects in JavaScript Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12485",
+    "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12485?force_user=1&persist_headless=1",
+    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 7,
+    "points_possible": 7.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_12485"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12485/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12485/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12485/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12485/submission_versions",
+    "assignment_id": 90126,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6357,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 1,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 12485,
+      "id": 130149,
+      "quiz_group_id": null,
+      "assessment_question_id": 88405,
+      "position": null,
+      "question_name": "Objects: Iterating",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What code would allow you to iterate over each key in this object?</p>\n<pre><span>const address = { <br>  name: 'P. Sherman',<br>  street2: '42 Wallaby Way',<br>  city: 'Sydney',<br>  state: 'New South Whales',<br>  country: 'AUS'<br>};</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/object-iteration?module_item_id=143581\" target=\"_blank\">Object Iteration</a></p>",
+      "answers": [
+        {
+          "id": 1875,
+          "text": "for...in statement.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<article class=\"main-page-content\" lang=\"en-US\">\n<div>The<strong>&nbsp;</strong><span><strong>for...in statement</strong> </span>iterates over all<span>&nbsp;</span><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties\" class=\"external\" target=\"_blank\"><span>enumerable properties</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a><span>&nbsp;</span>of an object that are keyed by strings (ignoring ones keyed by<span>&nbsp;</span><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol\" class=\"external\" target=\"_blank\"><span>Symbol</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a>s), including inherited enumerable properties.</div>\n</article>",
+          "weight": 100.0
+        },
+        {
+          "id": 301,
+          "text": "for...of statement.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Try again!</span></p>\n<p><span>The <strong>for...of statement</strong> iterates over the value of an iterable objects, like arrays.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 411,
+          "text": "while loop.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p><span>The&nbsp;</span><strong>while statement</strong><span>&nbsp;creates a loop that executes a specified statement as long as the test condition evaluates to true.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 9248,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12485,
+      "id": 130151,
+      "quiz_group_id": null,
+      "assessment_question_id": 88407,
+      "position": null,
+      "question_name": "Objects: Modifying",
+      "question_type": "short_answer_question",
+      "question_text": "<p>I am trying to update this object. What will the value of <code>mondayMenu.fries</code> be after my change?</p>\n<pre><span>const mondayMenu = { <br>  cheesePlate: { <br>    soft: 'Chèvre', <br>    semiSoft: 'Gruyère', <br>    hard: 'Manchego' <br>  }, <br>  fries: 'Curly',<br>  salad: 'Cobb'<br>}; <br><br>mondayMenu.fries = 'Sweet potato';</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/modifying-objects?module_item_id=178248\" target=\"_blank\">Modifying Objects</a></p>",
+      "answers": [
+        {
+          "id": "2278",
+          "text": "'Sweet potato'",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6364",
+          "text": "sweet potato",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "537",
+          "text": "Sweet potato",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12485,
+      "id": 130152,
+      "quiz_group_id": null,
+      "assessment_question_id": 88408,
+      "position": null,
+      "question_name": "Objects: Modifying",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>We can use the spread operator on:</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/modifying-objects?module_item_id=178248\" target=\"_blank\">Modifying Objects</a></p>",
+      "answers": [
+        {
+          "id": 4570,
+          "text": "Arrays and Objects.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p>We are able to non-destructively use the spread operator on both arrays and objects!</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 5976,
+          "text": "Arrays only.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p>We are able to use the spread operator on more than just arrays! Check out the source/s and test it out in your console!</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 7907,
+          "text": "Objects only.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p>We are able to use the spread operator on more than just objects! Check out the source/s and test it out in your console!</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3746,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12485,
+      "id": 130153,
+      "quiz_group_id": null,
+      "assessment_question_id": 88409,
+      "position": null,
+      "question_name": "Objects: Modifying",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>I want to combine multiple objects into a single object. Which method should I use?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/modifying-objects?module_item_id=178248\" target=\"_blank\">Modifying Objects</a></p>",
+      "answers": [
+        {
+          "id": 2440,
+          "text": "Object.assign()",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><strong><code>Object.assign()</code></strong><span>&nbsp;method copies all&nbsp;</span><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable\" class=\"external\" target=\"_blank\"><span>enumerable</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a><span>&nbsp;</span><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty\" class=\"external\" target=\"_blank\"><span>own properties</span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a><span>&nbsp;from one or more&nbsp;</span><em>source objects</em><span>&nbsp;to a&nbsp;</span><em>target object!</em></p>",
+          "weight": 100.0
+        },
+        {
+          "id": 7351,
+          "text": "Object.keys()",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p><span>The&nbsp;</span><code><strong>Object.keys()</strong></code><span>&nbsp;method returns an array of a given object's own enumerable property&nbsp;</span><strong>names</strong><span>, iterated in the same order that a normal loop would.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 2867,
+          "text": "Object.values()",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p><span>The&nbsp;</span><code><strong>Object.values()</strong></code><span>&nbsp;method returns an array of a given object's own enumerable property values, in the same order as that provided by a&nbsp;</span><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in\" class=\"external\" target=\"_blank\"><span><code>for...in</code></span><span class=\"ui-icon ui-icon-extlink ui-icon-inline\" title=\"Links to an external site.\"><span class=\"screenreader-only\">Links to an external site.</span></span></a><span>&nbsp;loop. (The only difference is that a&nbsp;</span><code>for...in</code><span>&nbsp;loop enumerates properties in the prototype chain as well.)</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 831,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12485,
+      "id": 130150,
+      "quiz_group_id": null,
+      "assessment_question_id": 88406,
+      "position": null,
+      "question_name": "Objects: Iterating",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>I have the following object, and I want to log each of the values. What is the best way to do this?</p>\n<pre><span>const address = { <br>  name: 'P. Sherman',<br>  street2: '42 Wallaby Way',<br>  city: 'Sydney',<br>  state: 'New South Whales',<br>  country: 'AUS'<br>};</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/object-iteration?module_item_id=143581\" target=\"_blank\">Object Iteration</a></p>",
+      "answers": [
+        {
+          "id": 7151,
+          "text": "",
+          "html": "<p><code>for (const key in address) { console.log(address[key]) }</code></p>",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p>By using the bracket operator, we are successfully able to access the objects values.&nbsp;</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 5208,
+          "text": "",
+          "html": "<p><code>for (const key in address) { console.log(address.key) }</code></p>",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p><span>The&nbsp;</span><code>for...in</code><span>&nbsp;statement iterates over the five properties in&nbsp;</span><code>address</code><span>, successively passing in the object's keys. However, inside the statement body we're trying to access&nbsp;</span><code>address.key</code><span>. If you recall from the lesson on objects, variables don't work with the dot operator because it treats the variable name as a literal key —&nbsp;that is,&nbsp;</span><code>address.key</code><span>&nbsp;is trying to access the property on&nbsp;</span><code>address</code><span>&nbsp;with a key of&nbsp;</span><code>key</code><span>. Since there is no&nbsp;</span><code>key</code><span>&nbsp;property in&nbsp;</span><code>address</code><span>, it returns&nbsp;</span><code>undefined</code><span>.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 1934,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12485,
+      "id": 130155,
+      "quiz_group_id": null,
+      "assessment_question_id": 88411,
+      "position": null,
+      "question_name": "Objects: Nested",
+      "question_type": "short_answer_question",
+      "question_text": "<p>I want to access the value for the first members' instruments in the following object. How would I access that? ( Hint: artistInfo.___ )</p>\n<pre><span>const artistInfo = { <br>  name: 'Talking Heads', <br>  genre: 'New Wave', <br>  origin: 'New York City', <br>  members: [{ <br>    firstName: 'David', <br>    lastName: 'Byrne', <br>    instruments: { <br>      main: 'Vocals', <br>      secondary: 'Guitar' <br>    } <br>  }, <br>  { <br>    firstName: 'Chris', <br>    lastName: 'Frantz', <br>    instruments: { <br>      main: 'Drums'<br>    } <br>  }, <br>  { <br>    firstName: 'Tina', <br>    lastName: 'Weymouth', <br>    instruments: { <br>      main: 'Bass'<br>    } <br>  }, <br>  { <br>    firstName: 'Jerry', <br>    lastName: 'Harrison', <br>    instruments: { <br>      main: 'Keyboards', <br>      secondary: 'Guitar' <br>    }<br>  }]<br>}<br><br></span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/traversing-nested-objects?module_item_id=143582\" target=\"_blank\">Traversing Nested Objects</a></p>",
+      "answers": [
+        {
+          "id": "5252",
+          "text": "artistInfo.members[0].instruments",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 5759,
+          "text": "artistInfo.members[0].instruments;",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12485,
+      "id": 130156,
+      "quiz_group_id": null,
+      "assessment_question_id": 88412,
+      "position": null,
+      "question_name": "Objects: Nested",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>I want to access the value for the band's origin in the following object. How would I access that?</p>\n<pre><span>const artistInfo = { <br>  name: 'Talking Heads', <br>  genre: 'New Wave', <br>  origin: 'New York City', <br>  members: [{ <br>    firstName: 'David', <br>    lastName: 'Byrne', <br>    instruments: { <br>      main: 'Vocals', <br>      secondary: 'Guitar' <br>    } <br>  }, <br>  { <br>    firstName: 'Chris', <br>    lastName: 'Frantz', <br>    instruments: { <br>      main: 'Drums'<br>    } <br>  }, <br>  { <br>    firstName: 'Tina', <br>    lastName: 'Weymouth', <br>    instruments: { <br>      main: 'Bass'<br>    } <br>  }, <br>  { <br>    firstName: 'Jerry', <br>    lastName: 'Harrison', <br>    instruments: { <br>      main: 'Keyboards', <br>      secondary: 'Guitar' <br>    }<br>  }]<br>}</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/traversing-nested-objects?module_item_id=143582\" target=\"_blank\">Traversing Nested Objects</a></p>",
+      "answers": [
+        {
+          "id": "6223",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct!&nbsp;</p>\n<p>By using dot notation, we are able to access the value of the origin key!</p>",
+          "weight": 100.0,
+          "html": "<p>artistInfo.origin</p>"
+        },
+        {
+          "id": "6964",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p>Remember when using bracket notation, we have to call the property accessor as a string!</p>",
+          "weight": 0.0,
+          "html": "<p>artistInfo[origin]</p>"
+        },
+        {
+          "id": "1680",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n<p>In order to get the value 'New York City', we need to grab it using it's key (or property accessor!)</p>",
+          "weight": 0.0,
+          "html": "<p>artistInfo['New York City']</p>"
+        },
+        {
+          "id": "6135",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
