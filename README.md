@@ -1,7 +1,7 @@
 ---
 id: 12485
 course_id: 3297
-repo: phase-1-quiz-working-with-objects-in-javascript-quiz
+repo: phase-1-quiz-working-with-objects-in-javascript
 ---
 
 # Working with Objects in JavaScript Quiz
