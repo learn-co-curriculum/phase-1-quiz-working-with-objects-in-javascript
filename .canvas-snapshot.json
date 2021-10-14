@@ -98,7 +98,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/object-iteration?module_item_id=143581\">Object Iteration</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9763,
+          "id": 2335,
           "text": "",
           "html": "<p><code>for...in</code></p>",
           "comments": "",
@@ -106,7 +106,7 @@
           "weight": 100.0
         },
         {
-          "id": 8384,
+          "id": 8438,
           "text": "",
           "html": "<p><code>for...of</code></p>",
           "comments": "",
@@ -114,7 +114,7 @@
           "weight": 0.0
         },
         {
-          "id": 3221,
+          "id": 8740,
           "text": "",
           "html": "<p>while loop.</p>",
           "comments": "",
@@ -122,7 +122,7 @@
           "weight": 0.0
         },
         {
-          "id": 926,
+          "id": 9742,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -155,21 +155,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/modifying-objects?module_item_id=178248\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5595,
+          "id": 7475,
           "text": "'Sweet potato'",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 5495,
+          "id": 1982,
           "text": "sweet potato",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 1718,
+          "id": 8456,
           "text": "Sweet potato",
           "comments": "",
           "comments_html": "",
@@ -201,7 +201,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/modifying-objects?module_item_id=178248\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5201,
+          "id": 4510,
           "text": "",
           "html": "<p>Arrays and Objects.</p>",
           "comments": "",
@@ -209,7 +209,7 @@
           "weight": 100.0
         },
         {
-          "id": 9977,
+          "id": 6676,
           "text": "",
           "html": "<p>Arrays only.</p>",
           "comments": "",
@@ -217,7 +217,7 @@
           "weight": 0.0
         },
         {
-          "id": 1895,
+          "id": 3725,
           "text": "",
           "html": "<p>Objects only.</p>",
           "comments": "",
@@ -225,7 +225,7 @@
           "weight": 0.0
         },
         {
-          "id": 6191,
+          "id": 6315,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -258,7 +258,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/modifying-objects?module_item_id=178248\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3145,
+          "id": 6328,
           "text": "",
           "html": "<p><code>Object.assign()</code></p>",
           "comments": "",
@@ -266,7 +266,7 @@
           "weight": 100.0
         },
         {
-          "id": 167,
+          "id": 2200,
           "text": "",
           "html": "<p><code>Object.keys()</code></p>",
           "comments": "",
@@ -274,7 +274,7 @@
           "weight": 0.0
         },
         {
-          "id": 1676,
+          "id": 3595,
           "text": "",
           "html": "<p><code>Object.values()</code></p>",
           "comments": "",
@@ -282,7 +282,7 @@
           "weight": 0.0
         },
         {
-          "id": 6693,
+          "id": 9714,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -315,7 +315,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/object-iteration?module_item_id=143581\">Object Iteration</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7621,
+          "id": 1645,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">key</span> <span class=\"k\">in</span> <span class=\"nx\">address</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">address</span><span class=\"p\">[</span><span class=\"nx\">key</span><span class=\"p\">]);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
           "comments": "",
@@ -323,7 +323,7 @@
           "weight": 100.0
         },
         {
-          "id": 8190,
+          "id": 1782,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">key</span> <span class=\"k\">in</span> <span class=\"nx\">address</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">address</span><span class=\"p\">.</span><span class=\"nx\">key</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
           "comments": "",
@@ -331,7 +331,7 @@
           "weight": 0.0
         },
         {
-          "id": 1515,
+          "id": 1516,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -364,15 +364,22 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/traversing-nested-objects?module_item_id=143582\">Traversing Nested Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3447,
+          "id": 3008,
           "text": "members[0].instruments",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 2008,
+          "id": 8247,
           "text": "members[0][\"instruments\"]",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 9130,
+          "text": "members[0]['instruments']",
           "comments": "",
           "comments_html": "",
           "weight": 100
@@ -403,7 +410,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/traversing-nested-objects?module_item_id=143582\">Traversing Nested Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5745,
+          "id": 6883,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! By using dot notation, we are able to access the value of the origin\nkey!</p>",
@@ -411,7 +418,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">.</span><span class=\"nx\">origin</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 7533,
+          "id": 9027,
           "text": "",
           "comments": "",
           "comments_html": "<p>Try again! Remember when using bracket notation, we have to call the property\naccessor as a string!</p>",
@@ -419,7 +426,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">[</span><span class=\"nx\">origin</span><span class=\"p\">];</span>\n</code></pre></div>"
         },
         {
-          "id": 6436,
+          "id": 4987,
           "text": "",
           "comments": "",
           "comments_html": "<p>Try again! In order to get the value 'New York City', we need to use its key\n(or property accessor).</p>",
@@ -427,7 +434,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">[</span><span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">];</span>\n</code></pre></div>"
         },
         {
-          "id": 3723,
+          "id": 7729,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
