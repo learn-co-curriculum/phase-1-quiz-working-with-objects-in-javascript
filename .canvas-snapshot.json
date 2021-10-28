@@ -4,7 +4,7 @@
     "title": "Working with Objects in JavaScript Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12485",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12485?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-objects-in-javascript\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-objects-in-javascript/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-objects-in-javascript\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-objects-in-javascript/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -145,7 +145,7 @@
       "position": null,
       "question_name": "Objects: Modifying",
       "question_type": "short_answer_question",
-      "question_text": "<p>I am trying to update this object. What will the value of <code>mondayMenu.fries</code> be\nafter my change?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">mondayMenu</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">cheesePlate</span><span class=\"p\">:</span> <span class=\"p\">{</span> <span class=\"na\">soft</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Chèvre</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">semiSoft</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Gruyère</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">hard</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Manchego</span><span class=\"dl\">\"</span> <span class=\"p\">},</span>\n  <span class=\"na\">fries</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Curly</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">salad</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Cobb</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n<span class=\"nx\">mondayMenu</span><span class=\"p\">.</span><span class=\"nx\">fries</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">Sweet potato</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n</code></pre></div>",
+      "question_text": "<p>I am trying to update this object. What will the value of <code>mondayMenu.fries</code> be after my change?</p>\n<div class=\"highlight\">\n<pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">mondayMenu</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">cheesePlate</span><span class=\"p\">:</span> <span class=\"p\">{</span> <span class=\"na\">soft</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Chèvre</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">semiSoft</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Gruyère</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">hard</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Manchego</span><span class=\"dl\">\"</span> <span class=\"p\">},</span>\n  <span class=\"na\">fries</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Curly</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">salad</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Cobb</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n<span class=\"nx\">mondayMenu</span><span class=\"p\">.</span><span class=\"nx\">fries</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">Sweet potato</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n</code></pre>\n</div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -155,22 +155,43 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/modifying-objects?module_item_id=178248\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7475,
-          "text": "'Sweet potato'",
+          "id": "7475",
+          "text": "Sweet potato",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 1982,
+          "id": "1982",
           "text": "sweet potato",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 8456,
-          "text": "Sweet potato",
+          "id": "8456",
+          "text": "'Sweet potato'",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 6450,
+          "text": "'sweet potato'",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 931,
+          "text": "\"Sweet potato\"",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 5201,
+          "text": "\"sweet potato\"",
           "comments": "",
           "comments_html": "",
           "weight": 100
