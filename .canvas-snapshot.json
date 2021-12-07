@@ -4,7 +4,7 @@
     "title": "Working with Objects in JavaScript Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12485",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12485?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-objects-in-javascript\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-objects-in-javascript/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-objects-in-javascript\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-objects-in-javascript/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 10827,
     "show_correct_answers_last_attempt": true,
-    "version_number": 4,
+    "version_number": 5,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -155,42 +155,42 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/modifying-objects?module_item_id=178248\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9737,
+          "id": "9737",
           "text": "Sweet potato",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 1875,
+          "id": "1875",
           "text": "sweet potato",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6361,
+          "id": "6361",
           "text": "'Sweet potato'",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 5411,
+          "id": "5411",
           "text": "'sweet potato'",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6632,
+          "id": "6632",
           "text": "\"Sweet potato\"",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 7823,
+          "id": "7823",
           "text": "\"sweet potato\"",
           "comments": "",
           "comments_html": "",
@@ -375,7 +375,7 @@
       "position": null,
       "question_name": "Objects: Nested",
       "question_type": "short_answer_question",
-      "question_text": "<p>Given the following <code>artistInfo</code> object:</p>\n<div class=\"highlight\">\n<pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">artistInfo</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">name</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Talking Heads</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">genre</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New Wave</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">origin</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">members</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">David</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Byrne</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Vocals</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n        <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Chris</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Frantz</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Drums</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Tina</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Weymouth</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Bass</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Jerry</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Harrison</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Keyboards</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n        <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n  <span class=\"p\">],</span>\n<span class=\"p\">};</span>\n\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">artistInfo</span><span class=\"p\">.</span><span class=\"nx\">___________</span><span class=\"p\">);</span>\n<span class=\"c1\">// =&gt; { main: \"Vocals\", secondary: \"Guitar\" }</span>\n</code></pre>\n</div>\n<p>Fill in the blank in the code above. What could I write to access the value for the first member's instruments? (Note: you only need to add the part that comes&nbsp;<strong>after</strong>&nbsp;<code>artistInfo.</code>).</p>",
+      "question_text": "<p>Given the following <code>artistInfo</code> object:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">artistInfo</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">name</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Talking Heads</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">genre</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New Wave</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">origin</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">members</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">David</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Byrne</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Vocals</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n        <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Chris</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Frantz</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Drums</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Tina</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Weymouth</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Bass</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Jerry</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Harrison</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Keyboards</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n        <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n  <span class=\"p\">],</span>\n<span class=\"p\">};</span>\n\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">artistInfo</span><span class=\"p\">.</span><span class=\"nx\">___________</span><span class=\"p\">);</span>\n<span class=\"c1\">// =&gt; { main: \"Vocals\", secondary: \"Guitar\" }</span>\n</code></pre></div>\n<p>Fill in the blank in the code above. What could I write to access the value for\nthe first member's instruments? (Note: you only need to enter the part that \ncomes <strong>after</strong> <code>artistInfo.</code>.)</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -431,7 +431,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/traversing-nested-objects?module_item_id=143582\">Traversing Nested Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2654,
+          "id": "2654",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! By using dot notation, we are able to access the value of the origin\nkey!</p>",
@@ -439,7 +439,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">.</span><span class=\"nx\">origin</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "id": 5618,
+          "id": "5618",
           "text": "",
           "comments": "",
           "comments_html": "<p>Try again! Remember when using bracket notation, we have to call the property\naccessor as a string!</p>",
@@ -447,7 +447,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">[</span><span class=\"nx\">origin</span><span class=\"p\">];</span>\n</code></pre></div>"
         },
         {
-          "id": 6539,
+          "id": "6539",
           "text": "",
           "comments": "",
           "comments_html": "<p>Try again! In order to get the value 'New York City', we need to use its key\n(or property accessor).</p>",
@@ -455,7 +455,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">[</span><span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">];</span>\n</code></pre></div>"
         },
         {
-          "id": 5368,
+          "id": "5368",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
