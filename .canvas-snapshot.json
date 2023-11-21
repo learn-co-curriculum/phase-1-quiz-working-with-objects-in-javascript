@@ -85,8 +85,8 @@
       "id": 366236,
       "quiz_id": 53429,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 1,
+      "assessment_question_id": 632037,
+      "position": null,
       "question_name": "Objects: Iterating",
       "question_type": "multiple_choice_question",
       "question_text": "<p>What code would allow you to iterate over each key in this object?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">address</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">name</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">P. Sherman</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">street2</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">42 Wallaby Way</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">city</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Sydney</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">state</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New South Whales</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">country</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">AUS</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n</code></pre></div>",
@@ -94,43 +94,41 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Object Iteration",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/object-iteration?module_item_id=627498\">Object Iteration</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_3463",
-          "id": 3463,
-          "text": "for...in",
-          "html": "<code>for...in</code>",
-          "comments": "Correct! The for...in statement iterates over all enumerable properties of an object that are keyed by strings (ignoring ones keyed by Symbols), including inherited enumerable properties.",
-          "comments_html": "Correct! The <code>for...in</code> statement iterates over all\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties\">enumerable properties</a>\nof an object that are keyed by strings (ignoring ones keyed by\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol\">Symbol</a>s),\nincluding inherited enumerable properties."
+          "id": 570,
+          "text": "",
+          "html": "<p><code>for...in</code></p>",
+          "comments": "",
+          "comments_html": "<p>Correct! The <code>for...in</code> statement iterates over all<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties\">enumerable\nproperties</a>of\nan object that are keyed by strings (ignoring ones keyed\nby<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol\">Symbol</a>s),\nincluding inherited enumerable properties.</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_4770",
-          "id": 4770,
-          "text": "for...of",
-          "html": "<code>for...of</code>",
-          "comments": "Try again! The for...of statement iterates over the value of an iterable objects, like arrays.",
-          "comments_html": "Try again! The <code>for...of</code> statement iterates over the value of an iterable\nobjects, like arrays."
+          "id": 1593,
+          "text": "",
+          "html": "<p><code>for...of</code></p>",
+          "comments": "",
+          "comments_html": "<p>Try again! The <code>for...of</code> statement iterates over the value of an iterable\nobjects, like arrays.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_9779",
-          "id": 9779,
-          "text": "while loop.",
-          "comments": "Try again! The while statement creates a loop that executes a specified statement as long as the test condition evaluates to true.",
-          "comments_html": "<p>Try again!</p>\n\n<p>The&nbsp; <strong>while statement</strong> &nbsp;creates a loop that executes a specified\nstatement as long as the test condition evaluates to true.</p>"
+          "id": 303,
+          "text": "",
+          "html": "<p>while loop.</p>",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n\n<p>The&nbsp; <strong>while statement</strong> &nbsp;creates a loop that executes a specified\nstatement as long as the test condition evaluates to true.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_4151",
-          "id": 4151,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 7570,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -144,8 +142,8 @@
       "id": 366237,
       "quiz_id": 53429,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 2,
+      "assessment_question_id": 632035,
+      "position": null,
       "question_name": "Objects: Modifying",
       "question_type": "short_answer_question",
       "question_text": "<p>I am trying to update this object. What will the value of <code>mondayMenu.fries</code> be\nafter my change?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">mondayMenu</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">cheesePlate</span><span class=\"p\">:</span> <span class=\"p\">{</span> <span class=\"na\">soft</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Chèvre</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">semiSoft</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Gruyère</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">hard</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Manchego</span><span class=\"dl\">\"</span> <span class=\"p\">},</span>\n  <span class=\"na\">fries</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Curly</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">salad</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Cobb</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n<span class=\"nx\">mondayMenu</span><span class=\"p\">.</span><span class=\"nx\">fries</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">Sweet potato</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n</code></pre></div>",
@@ -153,45 +151,51 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Modifying Objects",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/modifying-objects?module_item_id=627493\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "9737",
           "text": "Sweet potato",
-          "weight": 100,
           "comments": "",
-          "id": 9737
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "1875",
           "text": "sweet potato",
-          "weight": 100,
           "comments": "",
-          "id": 1875
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "6361",
           "text": "'Sweet potato'",
-          "weight": 100,
           "comments": "",
-          "id": 6361
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "5411",
           "text": "'sweet potato'",
-          "weight": 100,
           "comments": "",
-          "id": 5411
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "6632",
           "text": "\"Sweet potato\"",
-          "weight": 100,
           "comments": "",
-          "id": 6632
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "7823",
           "text": "\"sweet potato\"",
-          "weight": 100,
           "comments": "",
-          "id": 7823
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -205,50 +209,50 @@
       "id": 366238,
       "quiz_id": 53429,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 3,
+      "assessment_question_id": 632039,
+      "position": null,
       "question_name": "Objects: Modifying",
       "question_type": "multiple_choice_question",
-      "question_text": "We can use the spread operator on:",
+      "question_text": "<p>We can use the spread operator on:</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Modifying Objects",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/modifying-objects?module_item_id=627493\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_7543",
-          "id": 7543,
-          "text": "Arrays and Objects.",
-          "comments": "Correct! We are able to non-destructively use the spread operator on both arrays and objects!",
-          "comments_html": "<p>Correct!</p>\n\n<p>We are able to non-destructively use the spread operator on both arrays and\nobjects!</p>"
+          "id": 5827,
+          "text": "",
+          "html": "<p>Arrays and Objects.</p>",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n\n<p>We are able to non-destructively use the spread operator on both arrays and\nobjects!</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_8728",
-          "id": 8728,
-          "text": "Arrays only.",
-          "comments": "Try again! We are able to use the spread operator on more than just arrays! Check out the source/s and test it out in your console!",
-          "comments_html": "<p>Try again!</p>\n\n<p>We are able to use the spread operator on more than just arrays! Check out the\nsource/s and test it out in your console!</p>"
+          "id": 5655,
+          "text": "",
+          "html": "<p>Arrays only.</p>",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n\n<p>We are able to use the spread operator on more than just arrays! Check out the\nsource/s and test it out in your console!</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6864",
-          "id": 6864,
-          "text": "Objects only.",
-          "comments": "Try again! We are able to use the spread operator on more than just objects! Check out the source/s and test it out in your console!",
-          "comments_html": "<p>Try again!</p>\n\n<p>We are able to use the spread operator on more than just objects! Check out the\nsource/s and test it out in your console!</p>"
+          "id": 8577,
+          "text": "",
+          "html": "<p>Objects only.</p>",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n\n<p>We are able to use the spread operator on more than just objects! Check out the\nsource/s and test it out in your console!</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6142",
-          "id": 6142,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 4214,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -262,53 +266,50 @@
       "id": 366239,
       "quiz_id": 53429,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 4,
+      "assessment_question_id": 632036,
+      "position": null,
       "question_name": "Objects: Modifying",
       "question_type": "multiple_choice_question",
-      "question_text": "I want to create a new object by combining multiple objects into a single\nobject. Which method should I use?",
+      "question_text": "<p>I want to create a new object by combining multiple objects into a single\nobject. Which method should I use?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Modifying Objects",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/modifying-objects?module_item_id=627493\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_6215",
-          "id": 6215,
-          "text": "Object.assign()",
-          "html": "<code>Object.assign()</code>",
-          "comments": "Correct! The Object.assign() method copies all enumerable properties from one or more source objects to a target object!",
-          "comments_html": "Correct! The <code>Object.assign()</code> method copies all\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable\">enumerable</a>\nproperties from one or more <em>source objects</em> to a <em>target object</em>!"
+          "id": 2982,
+          "text": "",
+          "html": "<p><code>Object.assign()</code></p>",
+          "comments": "",
+          "comments_html": "<p>Correct! The <code>Object.assign()</code> method copies\nall<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable\">enumerable</a>properties\nfrom one or more <em>source objects</em> to a <em>target object</em>!</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6074",
-          "id": 6074,
-          "text": "Object.keys()",
-          "html": "<code>Object.keys()</code>",
-          "comments": "Try again! The Object.keys() method returns an array of a given object's own enumerable property names , iterated in the same order that a normal loop would.",
-          "comments_html": "<p>Try again!</p>\n\n<p>The <code>Object.keys()</code> method returns an array of a given object's own\nenumerable property <strong>names</strong> , iterated in the same order that a normal\nloop would.</p>"
+          "id": 8030,
+          "text": "",
+          "html": "<p><code>Object.keys()</code></p>",
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n\n<p>The <code>Object.keys()</code> method returns an array of a given object's own enumerable\nproperty <strong>names</strong> , iterated in the same order that a normal loop would.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_5195",
-          "id": 5195,
-          "text": "Object.values()",
-          "html": "<code>Object.values()</code>",
-          "comments": "Try again! The Object.values() method returns an array of a given object's own enumerable property values, in the same order as that provided by a for...inloop. (The only difference is that a for...inloop enumerates properties in the prototype chain as well.)",
-          "comments_html": "Try again! The <code>Object.values()</code> method returns an array of a given object's\nown enumerable property values, in the same order as that provided by a\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in\"><code>for...in</code></a>loop.\n(The only difference is that a <code>for...in</code>loop enumerates properties in the\nprototype chain as well.)"
+          "id": 8731,
+          "text": "",
+          "html": "<p><code>Object.values()</code></p>",
+          "comments": "",
+          "comments_html": "<p>Try again! The <code>Object.values()</code> method returns an array of a given object's own\nenumerable property values, in the same order as that provided by\na<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in\"><code>for...in</code></a>loop.\n(The only difference is that a <code>for...in</code>loop enumerates properties in the\nprototype chain as well.)</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6719",
-          "id": 6719,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 66,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -322,8 +323,8 @@
       "id": 366240,
       "quiz_id": 53429,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 5,
+      "assessment_question_id": 632034,
+      "position": null,
       "question_name": "Objects: Iterating",
       "question_type": "multiple_choice_question",
       "question_text": "<p>I have the following object, and I want to log each of the values. What is the\nbest way to do this?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">address</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">name</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">P. Sherman</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">street2</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">42 Wallaby Way</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">city</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Sydney</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">state</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New South Whales</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">country</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">AUS</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n</code></pre></div>",
@@ -331,35 +332,33 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Object Iteration",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/object-iteration?module_item_id=627498\">Object Iteration</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_478",
           "id": 478,
-          "text": "for (const key in address) { console.log(address[key]); }",
+          "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">key</span> <span class=\"k\">in</span> <span class=\"nx\">address</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">address</span><span class=\"p\">[</span><span class=\"nx\">key</span><span class=\"p\">]);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
-          "comments": "Correct! By using the bracket operator, we are successfully able to access the objects values.",
-          "comments_html": "<p>Correct!</p>\n\n<p>By using the bracket operator, we are successfully able to access the objects values.</p>"
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n\n<p>By using the bracket operator, we are successfully able to access the objects\nvalues.</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_4499",
           "id": 4499,
-          "text": "for (const key in address) { console.log(address.key); }",
+          "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">key</span> <span class=\"k\">in</span> <span class=\"nx\">address</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">address</span><span class=\"p\">.</span><span class=\"nx\">key</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
-          "comments": "Try again! The for...in statement iterates over the five properties in address, successively passing in the object's keys. However, inside the statement body we're trying to access address.key. If you recall from the lesson on objects, variables don't work with the dot operator because it treats the variable name as a literal key — that is, address.key is trying to access the property on address with a key of key. Since there is no keyproperty in address, it returns undefined.",
-          "comments_html": "<p>Try again!</p>\n\n<p>The <code>for...in</code> statement iterates over the five properties in <code>address</code>,\nsuccessively passing in the object's keys. However, inside the statement body\nwe're trying to access <code>address.key</code>. If you recall from the lesson on\nobjects, variables don't work with the dot operator because it treats the\nvariable name as a literal key — that is, <code>address.key</code> is trying to access\nthe property on <code>address</code> with a key of <code>key</code>. Since there is no <code>key</code>property\nin <code>address</code>, it returns <code>undefined</code>.</p>"
+          "comments": "",
+          "comments_html": "<p>Try again!</p>\n\n<p>The <code>for...in</code> statement iterates over the five properties in <code>address</code>,\nsuccessively passing in the object's keys. However, inside the statement body\nwe're trying to access <code>address.key</code>. If you recall from the lesson on objects,\nvariables don't work with the dot operator because it treats the variable name\nas a literal key — that is, <code>address.key</code> is trying to access the property on\n<code>address</code> with a key of <code>key</code>. Since there is no <code>key</code>property in <code>address</code>, it\nreturns <code>undefined</code>.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_8836",
-          "id": 8836,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 573,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -373,36 +372,39 @@
       "id": 366241,
       "quiz_id": 53429,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 6,
+      "assessment_question_id": 632040,
+      "position": null,
       "question_name": "Objects: Nested",
       "question_type": "short_answer_question",
-      "question_text": "<p>Given the following <code>artistInfo</code> object:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">artistInfo</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">name</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Talking Heads</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">genre</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New Wave</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">origin</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">members</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">David</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Byrne</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Vocals</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n        <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Chris</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Frantz</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Drums</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Tina</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Weymouth</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Bass</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Jerry</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Harrison</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Keyboards</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n        <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n  <span class=\"p\">],</span>\n<span class=\"p\">};</span>\n\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">artistInfo</span><span class=\"p\">.</span><span class=\"nx\">___________</span><span class=\"p\">);</span>\n<span class=\"c1\">// =&gt; { main: \"Vocals\", secondary: \"Guitar\" }</span>\n</code></pre></div>\n<p>Fill in the blank in the code above. What could I write to access the value for\nthe first member's instruments? (Note: you only need to enter the part that \ncomes <strong>after</strong> <code>artistInfo.</code>.)</p>",
+      "question_text": "<p>Given the following <code>artistInfo</code> object:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">artistInfo</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">name</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Talking Heads</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">genre</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New Wave</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">origin</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">members</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">David</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Byrne</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Vocals</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n        <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Chris</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Frantz</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Drums</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Tina</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Weymouth</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Bass</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Jerry</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Harrison</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n        <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Keyboards</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n        <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n  <span class=\"p\">],</span>\n<span class=\"p\">};</span>\n\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">artistInfo</span><span class=\"p\">.</span> <span class=\"nx\">___________</span> <span class=\"p\">);</span>\n<span class=\"c1\">// =&gt; { main: \"Vocals\", secondary: \"Guitar\" }</span>\n</code></pre></div>\n<p>Fill in the blank in the code above. What could I write to access the value for\nthe first member's instruments? (Note: you only need to enter the part that\ncomes <strong>after</strong> <code>artistInfo.</code>.)</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Traversing Nested Objects",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/traversing-nested-objects?module_item_id=627499\">Traversing Nested Objects</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "807",
           "text": "members[0].instruments",
-          "weight": 100,
           "comments": "",
-          "id": 807
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "2441",
           "text": "members[0][\"instruments\"]",
-          "weight": 100,
           "comments": "",
-          "id": 2441
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "9288",
           "text": "members[0]['instruments']",
-          "weight": 100,
           "comments": "",
-          "id": 9288
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -416,8 +418,8 @@
       "id": 366242,
       "quiz_id": 53429,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 7,
+      "assessment_question_id": 632038,
+      "position": null,
       "question_name": "Objects: Nested",
       "question_type": "multiple_answers_question",
       "question_text": "<p>Given the following object:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">artistInfo</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">name</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Talking Heads</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">genre</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New Wave</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">origin</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">members</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">David</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Byrne</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span> <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Vocals</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span> <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span> <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Chris</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Frantz</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span> <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Drums</span><span class=\"dl\">\"</span> <span class=\"p\">}</span> <span class=\"p\">},</span>\n    <span class=\"p\">{</span> <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Tina</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Weymouth</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span> <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Bass</span><span class=\"dl\">\"</span> <span class=\"p\">}</span> <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">firstName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Jerry</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">lastName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Harrison</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">instruments</span><span class=\"p\">:</span> <span class=\"p\">{</span> <span class=\"na\">main</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Keyboards</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"na\">secondary</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Guitar</span><span class=\"dl\">\"</span> <span class=\"p\">},</span>\n    <span class=\"p\">},</span>\n  <span class=\"p\">],</span>\n<span class=\"p\">};</span>\n</code></pre></div>\n<p>What code would I need to write to access the band's origin?</p>",
@@ -425,44 +427,41 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Traversing Nested Objects",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/traversing-nested-objects?module_item_id=627499\">Traversing Nested Objects</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_2654",
-          "id": 2654,
-          "text": "artistInfo.origin;",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">.</span><span class=\"nx\">origin</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "Correct! By using dot notation, we are able to access the value of the origin key!",
-          "comments_html": "Correct! By using dot notation, we are able to access the value of the origin\nkey!"
+          "id": "2654",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! By using dot notation, we are able to access the value of the origin\nkey!</p>",
+          "weight": 100.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">.</span><span class=\"nx\">origin</span><span class=\"p\">;</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_5618",
-          "id": 5618,
-          "text": "artistInfo[origin];",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">[</span><span class=\"nx\">origin</span><span class=\"p\">];</span>\n</code></pre></div>",
-          "comments": "Try again! Remember when using bracket notation, we have to call the property accessor as a string!",
-          "comments_html": "Try again! Remember when using bracket notation, we have to call the property\naccessor as a string!"
+          "id": "5618",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Try again! Remember when using bracket notation, we have to call the property\naccessor as a string!</p>",
+          "weight": 0.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">[</span><span class=\"nx\">origin</span><span class=\"p\">];</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_6539",
-          "id": 6539,
-          "text": "artistInfo[\"New York City\"];",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">[</span><span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">];</span>\n</code></pre></div>",
-          "comments": "Try again! In order to get the value 'New York City', we need to use its key (or property accessor).",
-          "comments_html": "Try again! In order to get the value 'New York City', we need to use its key\n(or property accessor)."
+          "id": "6539",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Try again! In order to get the value 'New York City', we need to use its key (or\nproperty accessor).</p>",
+          "weight": 0.0,
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">artistInfo</span><span class=\"p\">[</span><span class=\"dl\">\"</span><span class=\"s2\">New York City</span><span class=\"dl\">\"</span><span class=\"p\">];</span>\n</code></pre></div>"
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_5368",
-          "id": 5368,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 2780,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
