@@ -1,9 +1,9 @@
 {
   "quiz": {
-    "id": 42560,
+    "id": 53429,
     "title": "Working with Objects in JavaScript Quiz",
-    "html_url": "https://learning.flatironschool.com/courses/6638/quizzes/42560",
-    "mobile_url": "https://learning.flatironschool.com/courses/6638/quizzes/42560?force_user=1&persist_headless=1",
+    "html_url": "https://learning.flatironschool.com/courses/7550/quizzes/53429",
+    "mobile_url": "https://learning.flatironschool.com/courses/7550/quizzes/53429?force_user=1&persist_headless=1",
     "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-objects-in-javascript\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-objects-in-javascript/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
@@ -26,7 +26,7 @@
     "locked_for_user": true,
     "lock_info": {
       "missing_permission": "participate_as_student",
-      "asset_string": "quizzes:quiz_42560"
+      "asset_string": "quizzes:quiz_53429"
     },
     "lock_explanation": "This quiz is currently locked.",
     "hide_results": null,
@@ -60,21 +60,21 @@
       "review_grades": true,
       "view_answer_audits": true
     },
-    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/6638/quizzes/42560/reports",
-    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/6638/quizzes/42560/statistics",
-    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/6638/quizzes/42560/submission_users/message",
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/7550/quizzes/53429/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/7550/quizzes/53429/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/7550/quizzes/53429/submission_users/message",
     "section_count": 1,
     "important_dates": false,
-    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/6638/quizzes/42560/submission_versions",
-    "assignment_id": 223852,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/7550/quizzes/53429/submission_versions",
+    "assignment_id": 263307,
     "one_time_results": false,
     "only_visible_to_overrides": false,
-    "assignment_group_id": 19770,
+    "assignment_group_id": 25044,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 8,
     "has_access_code": false,
     "post_to_sis": false,
-    "migration_id": "g9515488a844c438a6acffacaff1c8035",
+    "migration_id": "g9b4873534e3da135eac6b2b933cf4b12",
     "in_paced_course": false,
     "question_types": [
 
@@ -82,8 +82,8 @@
   },
   "questions": [
     {
-      "id": 289884,
-      "quiz_id": 42560,
+      "id": 366236,
+      "quiz_id": 53429,
       "quiz_group_id": null,
       "assessment_question_id": null,
       "position": 1,
@@ -96,7 +96,7 @@
       "neutral_comments": "Source/s:Object Iteration",
       "correct_comments_html": null,
       "incorrect_comments_html": null,
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/object-iteration?module_item_id=523470\">Object Iteration</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/object-iteration?module_item_id=627498\">Object Iteration</a></li></ul><p></p>",
       "answers": [
         {
           "weight": 100,
@@ -141,8 +141,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 289885,
-      "quiz_id": 42560,
+      "id": 366237,
+      "quiz_id": 53429,
       "quiz_group_id": null,
       "assessment_question_id": null,
       "position": 2,
@@ -155,7 +155,7 @@
       "neutral_comments": "Source/s:Modifying Objects",
       "correct_comments_html": null,
       "incorrect_comments_html": null,
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/modifying-objects?module_item_id=523465\">Modifying Objects</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/modifying-objects?module_item_id=627493\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
           "text": "Sweet potato",
@@ -202,8 +202,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 289886,
-      "quiz_id": 42560,
+      "id": 366238,
+      "quiz_id": 53429,
       "quiz_group_id": null,
       "assessment_question_id": null,
       "position": 3,
@@ -216,7 +216,7 @@
       "neutral_comments": "Source/s:Modifying Objects",
       "correct_comments_html": null,
       "incorrect_comments_html": null,
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/modifying-objects?module_item_id=523465\">Modifying Objects</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/modifying-objects?module_item_id=627493\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
           "weight": 100,
@@ -259,8 +259,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 289887,
-      "quiz_id": 42560,
+      "id": 366239,
+      "quiz_id": 53429,
       "quiz_group_id": null,
       "assessment_question_id": null,
       "position": 4,
@@ -273,7 +273,7 @@
       "neutral_comments": "Source/s:Modifying Objects",
       "correct_comments_html": null,
       "incorrect_comments_html": null,
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/modifying-objects?module_item_id=523465\">Modifying Objects</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/modifying-objects?module_item_id=627493\">Modifying Objects</a></li></ul><p></p>",
       "answers": [
         {
           "weight": 100,
@@ -319,8 +319,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 289888,
-      "quiz_id": 42560,
+      "id": 366240,
+      "quiz_id": 53429,
       "quiz_group_id": null,
       "assessment_question_id": null,
       "position": 5,
@@ -333,7 +333,7 @@
       "neutral_comments": "Source/s:Object Iteration",
       "correct_comments_html": null,
       "incorrect_comments_html": null,
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/object-iteration?module_item_id=523470\">Object Iteration</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/object-iteration?module_item_id=627498\">Object Iteration</a></li></ul><p></p>",
       "answers": [
         {
           "weight": 100,
@@ -370,8 +370,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 289889,
-      "quiz_id": 42560,
+      "id": 366241,
+      "quiz_id": 53429,
       "quiz_group_id": null,
       "assessment_question_id": null,
       "position": 6,
@@ -384,7 +384,7 @@
       "neutral_comments": "Source/s:Traversing Nested Objects",
       "correct_comments_html": null,
       "incorrect_comments_html": null,
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/traversing-nested-objects?module_item_id=523471\">Traversing Nested Objects</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/traversing-nested-objects?module_item_id=627499\">Traversing Nested Objects</a></li></ul><p></p>",
       "answers": [
         {
           "text": "members[0].instruments",
@@ -413,8 +413,8 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 289890,
-      "quiz_id": 42560,
+      "id": 366242,
+      "quiz_id": 53429,
       "quiz_group_id": null,
       "assessment_question_id": null,
       "position": 7,
@@ -427,7 +427,7 @@
       "neutral_comments": "Source/s:Traversing Nested Objects",
       "correct_comments_html": null,
       "incorrect_comments_html": null,
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/traversing-nested-objects?module_item_id=523471\">Traversing Nested Objects</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/traversing-nested-objects?module_item_id=627499\">Traversing Nested Objects</a></li></ul><p></p>",
       "answers": [
         {
           "weight": 100,

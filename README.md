@@ -1,6 +1,6 @@
 ---
-id: 42560
-course_id: 6638
+id: 53429
+course_id: 7550
 repo: phase-1-quiz-working-with-objects-in-javascript
 ---
 
